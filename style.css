@@ -14,18 +14,3 @@ body {
   margin: 0;
 }
 
-.color-container{
-    padding: 12rem;
-    background-color: red;
-    margin: 30px 0;
-}
-
-.color {
-  color: wheat;
-}
-button{
-    background-color: crimson;
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 30px;
-}
