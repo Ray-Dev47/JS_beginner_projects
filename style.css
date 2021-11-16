@@ -14,3 +14,48 @@ body {
   margin: 0;
 }
 
+.counter-display{
+   font-size: 6rem;
+   font-weight: bolder;
+   color: blueviolet;
+}
+
+.increment{
+     background-color: limegreen;
+     color: #fff;
+     font-weight: 500;
+     padding: 10px 30px;
+     font-size: 20px;
+     outline: none;
+     border-radius: 5px;
+     border: none;
+     margin: 0 10px;
+}
+
+.decrement{
+   background-color: crimson;
+   color: #fff;
+   font-weight: 500;
+   padding: 10px 30px;
+   font-size: 20px;
+   outline: none;
+   border-radius: 5px;
+   border: none;
+   margin: 0 10px;
+  
+}
+.reset{
+  background-color: orangered;
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 30px;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+}
+.btn-container{
+    margin: 0 6px;
+    
+}
