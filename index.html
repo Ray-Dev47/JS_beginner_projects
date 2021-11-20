@@ -10,27 +10,37 @@
 			rel="stylesheet"
 		/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+		<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 		<title>Js Modal</title>
 	</head>
 	<body>
 		<h1>Simple JS Modal</h1>
-		<div id="modal">
-            <div class="modal-content close_btn">
-                <span class="fas fa-times"><i></i></span>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum est repellendus, iure fugit esse culpa minima numquam reprehenderit!</p>
-            </div>
+		<div class="trigger">
+			<button id="modalBtn">Open Modal</button>
+		  </div>
+		  
+		  <!-- The Modal -->
+		  <div id="myModal" class="modal">
+		  
+			<!-- Modal content -->
+			<div class="modal-content">
+				<div class="header-content">
+					<h2>Modal Header</h2>
+			        <span class="close"><i class="fas fa-times"></i></span>
+				</div>		
+			  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, inventore nemo pariatur nam ut beatae distinctio veritatis officiis laboriosam? Molestiae.</p>
+			  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim laborum numquam harum corporis. Et assumenda quia est sed esse natus quisquam animi dolor nisi amet cupiditate, maxime consequatur consequuntur!</p>
+			  <div class="footer-content">
+				  <h2>Modal Footer</h2>
+				 <button class="close2">Close</button> 
 
-            <div>
-				<!-- Modal alert box -->
-				<button class="modal_one">Normal Modal</button>              
+			  </div>
 			</div>
+		  </div>
 
-            <!-- modal two -->
-			<!-- <div>
-				<button class="modal_two">Modal two</button>
-                <div><i class="fab fa-close"></i></div>
-			</div> -->
-		</div>
 
 		
 		<script src="./script.js"></script>
