@@ -12,7 +12,6 @@ const close2 = document.getElementsByClassName("close2")[0];
 // When the user clicks on the button, open the modal
 btn.addEventListener('click', () => {
     modal.style.display = "block";
-
 })
 
 // When the user clicks on <span> (x), close the modal
